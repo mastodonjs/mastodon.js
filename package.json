@@ -1,0 +1,39 @@
+{
+  "name": "mastodon.js",
+  "version": "1.0.1",
+  "description": "A library for interacting with the Mastodon API",
+  "scripts": {
+    "test": "tsc --noEmit && tsd"
+  },
+  "main": "./src/index.js",
+  "types": "./typings/index.d.ts",
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "files": [
+    "src",
+    "typings"
+  ],
+  "contributors": [
+    "Elijah Conners <business@elijahpepe.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mastodon",
+    "api",
+    "bot",
+    "client",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mastodonjs/mastodon.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mastodonjs/mastodon.js/issues"
+  },
+  "dependencies": {
+    "undici": "^5.16.0"
+  }
+}
